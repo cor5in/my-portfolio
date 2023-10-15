@@ -38,7 +38,6 @@ const socialMediaLinks = {
   gmail: "saadpasta70@gmail.com",
   /* gitlab: "https://gitlab.com/saadpasta" */
   /*facebook: "https://www.facebook.com/saad.pasta7",*/
-  medium: "https://medium.com/@41vin",
   instagram: "https://www.instagram.com/gun.__.kim",
   /* stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta" */
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -255,13 +254,12 @@ const blogSection = {
     "Content related to 5G core, Open RAN, and various open-source technologies",
     blogs: [
       {
-        url: "https://medium.com/@41vin/1st-global-otic-summit-%EC%B0%B8%EA%B0%80-%ED%9B%84%EA%B8%B0-5d64be8b0e6a",
+        url: "https://41vin.github.io/research/OTIC",
         title: "1st OTIC in SUTD, Singapore",
         description:
           "My Participation Review of the 1st OTIC"
-      },
-  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [],
+      }
+    ],
   display: true // Set false to hide this section, defaults to true
 };
 
