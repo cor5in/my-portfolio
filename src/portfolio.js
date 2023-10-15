@@ -308,9 +308,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "If you find my research interesting, please feel free to send me an email!",
   number: "010-8011-9415",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "erudite.gun@gmail.com"
 };
 
 // Twitter Section
