@@ -23,7 +23,7 @@ const greeting = {
   username: "Geon Kim",
   title: "Glad to see you, I'm Geon",
   subTitle: emoji(
-    "A passionate Next-generation 5G core networks researchers 🚀, aiming to implement more advanced technologies using CNCF open-source programs."
+    "A passionate Next-generation 5G core networks researcher 🚀, aiming to implement more advanced technologies using CNCF open-source programs."
   ),
   /* resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button */
@@ -53,7 +53,7 @@ const skillsSection = {
   subTitle:
     "Researching next-generation mobile communication, particularly cloud-based core networks.",
   skills: [
-    emoji("⚡ Test a cloud-based 5G core network using Chaos engineering."),
+    emoji("⚡ Test a cloud-based 5G core network using Chaos engineering"),
     emoji(
       "⚡ Aim to create an innovative 5G core network by leveraging various CNCF open-source projects."
     ),
@@ -71,8 +71,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-azure"
     },
     {
       skillName: "python",
@@ -81,7 +81,32 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    },
+    {
+      skillName: "prometheus",
+      fontAwesomeClassname: "fab fa-prometheus"
+    },
+    {
+      skillName: "grafana",
+      fontAwesomeClassname: "fab fa-grafana"
+    },
+    {
+      skillName: "kubernetes",
+      fontAwesomeClassname: "fab fa-kubernetes"
+    },
+    {
+      skillName: "ansible",
+      fontAwesomeClassname: "fab fa-ansible"
+    },
+    {
+      skillName: "litmus",
+      fontAwesomeClassname: "fab fa-litmus"
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -92,23 +117,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "KyungHee University",
+      logo: require("./assets/images/khuLogo.png"),
+      subHeader: "Master of Science in Electronic and Information Convergence Engineering",
+      duration: "March 2023 - ",
+      desc: "Belong to Mobile Communications Lab, and participate in the research of next-generation communication",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Cloud native 5G core network",
+        "Open RAN"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "KyungHee University",
+      logo: require("./assets/images/khuLogo.png"),
+      subHeader: "Bachelor of Science in Electronic Engineering",
+      duration: "March 2017 - February 2023",
+      desc: "Ranked top 10% in the program. Took courses about Mobile Communication, Wireless Communication, Computer Network ...",
+      descBullets: ["Cum Laude"]
     }
   ]
 };
@@ -119,15 +144,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "5G Core Network", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Cloud Native Infrastructure",
       progressPercentage: "70%"
     },
     {
       Stack: "Programming",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Cloud Architecture",
       progressPercentage: "60%"
     }
   ],
@@ -137,7 +166,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -178,30 +207,19 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Team Projects",
+  subtitle: "PROJECTS ACCOMPLISHED WITH OTHER INDIVIDUALS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/OSS.webp"),
+      projectName: "Open Source Contribution Academy",
+      projectDesc: "Team: Azure SDK for Python and Korean, Lead Mentee",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.contribution.ac/2023-ossca-apply"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
       ]
     }
   ],
@@ -218,12 +236,13 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Solutions Architect Associate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "A certification that paved the way to the cloud",
+      image: require("./assets/images/AWS-SAA.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
+        /*
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
@@ -236,33 +255,7 @@ const achievementSection = {
           name: "Google Code-in Blog",
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        */
       ]
     }
   ],
@@ -274,7 +267,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Content related to 5G core, Open RAN, and various open-source technologies",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [],
   display: true // Set false to hide this section, defaults to true
