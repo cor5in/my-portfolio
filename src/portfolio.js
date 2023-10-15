@@ -253,7 +253,14 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "Content related to 5G core, Open RAN, and various open-source technologies",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    blogs: [
+      {
+        url: "https://medium.com/@41vin/1st-global-otic-summit-%EC%B0%B8%EA%B0%80-%ED%9B%84%EA%B8%B0-5d64be8b0e6a",
+        title: "1st OTIC in SUTD, Singapore",
+        description:
+          "My Participation Review of the 1st OTIC
+      },
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [],
   display: true // Set false to hide this section, defaults to true
 };
