@@ -105,7 +105,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "litmus",
       fontAwesomeClassname: "fab fa-litmus"
     }
-    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -118,13 +117,11 @@ const educationInfo = {
     {
       schoolName: "KyungHee University",
       logo: require("./assets/images/khuLogo.png"),
-      subHeader: "Master of Science in Electronic and Information Convergence Engineering",
+      subHeader:
+        "Master of Science in Electronic and Information Convergence Engineering",
       duration: "March 2023 - ",
       desc: "Belong to Mobile Communications Lab, and participate in the research of next-generation communication",
-      descBullets: [
-        "Cloud native 5G core network",
-        "Open RAN"
-      ]
+      descBullets: ["Cloud native 5G core network", "Open RAN"]
     },
     {
       schoolName: "KyungHee University",
@@ -236,8 +233,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "AWS Solutions Architect Associate",
-      subtitle:
-        "A certification that paved the way to the cloud",
+      subtitle: "A certification that paved the way to the cloud",
       image: require("./assets/images/AWS-SAA.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: []
@@ -252,14 +248,13 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "Content related to 5G core, Open RAN, and various open-source technologies",
-    blogs: [
-      {
-        url: "https://41vin.github.io/research/OTIC",
-        title: "1st OTIC in SUTD, Singapore",
-        description:
-          "My Participation Review of the 1st OTIC"
-      }
-    ],
+  blogs: [
+    {
+      url: "https://41vin.github.io/research/OTIC",
+      title: "1st OTIC in SUTD, Singapore",
+      description: "My Participation Review of the 1st OTIC"
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
