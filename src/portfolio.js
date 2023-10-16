@@ -303,7 +303,7 @@ const contactInfo = {
   email_address: "erudite.gun@gmail.com"
 };
 
-// Twitter Section
+// Twitter Sectioneee
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
