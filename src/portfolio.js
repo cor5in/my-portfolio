@@ -23,7 +23,7 @@ const greeting = {
   username: "Geon Kim",
   title: "Glad to see you, I'm Geon",
   subTitle: emoji(
-    "A passionate Next-generation 5G core networks researcher 🚀, aiming to implement more advanced technologies using CNCF open-source programs."
+    "A passionate researcher studying vRAN 🚀, eager to collaborate with diverse individuals and achieve innovation"
   ),
   /* resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button */
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/41vin",
   linkedin: "https://www.linkedin.com/in/41vin/",
-  gmail: "saadpasta70@gmail.com",
+  gmail: "gun@khu.ac.kr",
   /* gitlab: "https://gitlab.com/saadpasta" */
   /*facebook: "https://www.facebook.com/saad.pasta7",*/
   instagram: "https://www.instagram.com/gun.__.kim",
@@ -50,14 +50,14 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Researching next-generation mobile communication, particularly cloud-based core networks.",
+    "Researching next-generation mobile communication, particularly cloud native RAN",
   skills: [
-    emoji("⚡ Test a cloud-based 5G core network using Chaos engineering"),
+    emoji("⚡ Research on AI/ML Workflow in Open RAN"),
     emoji(
-      "⚡ Aim to create an innovative 5G core network by leveraging various CNCF open-source projects."
+      "⚡ Study of Cloud Native RAN Architecture"
     ),
     emoji(
-      "⚡ Research the 5G core network by analyzing research papers from various companies"
+      "⚡ Research on vRAN Hyperparameter Fine-Tuning Using Bayesian Optimization"
     )
   ],
 
@@ -82,10 +82,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "jenkins",
-      fontAwesomeClassname: "fab fa-jenkins"
-    },
-    {
       skillName: "prometheus",
       fontAwesomeClassname: "fab fa-prometheus"
     },
@@ -100,10 +96,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "ansible",
       fontAwesomeClassname: "fab fa-ansible"
-    },
-    {
-      skillName: "litmus",
-      fontAwesomeClassname: "fab fa-litmus"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -140,8 +132,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "5G Core Network", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Optimization", //Insert stack or technology you have experience in
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Cloud Native Infrastructure",
@@ -149,11 +141,11 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "50%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Cloud Architecture",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -237,6 +229,13 @@ const achievementSection = {
       image: require("./assets/images/AWS-SAA.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: []
+    },
+    {
+      title: "Certified Kubernetes Administrator",
+      subtitle: "A certification offered by the Cloud Native Computing Foundation (CNCF) that validates one's expertise in deploying, managing, and troubleshooting Kubernetes clusters",
+      image: require("./assets/images/CKA.png"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -294,8 +293,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "If you find my research interesting, please feel free to send me an email!",
-  number: "010-8011-9415",
-  email_address: "erudite.gun@gmail.com"
+  email_address: "gun@khu.ac.kr"
 };
 
 // Twitter Sectioneee
