@@ -70,43 +70,43 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "aws",
-      fontAwesomeClassname: <FaAws />
+      icon: <FaAws />
     },
     {
       skillName: "azure",
-      fontAwesomeClassname: <SiMicrosoftazure />
+      icon: <SiMicrosoftazure />
     },
     {
       skillName: "python",
-      fontAwesomeClassname: <FaPython />
+      icon: <FaPython />
     },
     {
       skillName: "c++",
-      fontAwesomeClassname: <TbBrandCpp />
+      icon: <TbBrandCpp />
     },
     {
       skillName: "go",
-      fontAwesomeClassname: <FaGolang />
+      icon: <FaGolang />
     },
     {
       skillName: "pytorch",
-      fontAwesomeClassname: <SiPytorch />
+      icon: <SiPytorch />
     },
     {
       skillName: "scikit-learn",
-      fontAwesomeClassname: <SiScikitlearn />
+      icon: <SiScikitlearn />
     },
     {
       skillName: "tensorflow",
-      fontAwesomeClassname: <SiTensorflow />
+      icon: <SiTensorflow />
     },
     {
       skillName: "kubernetes",
-      fontAwesomeClassname: <SiKubernetes />
+      icon: <SiKubernetes />
     },
     {
       skillName: "docker",
-      fontAwesomeClassname: <FaDocker />
+      icon: <FaDocker />
     },
 
   ],
