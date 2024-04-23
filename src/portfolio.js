@@ -131,7 +131,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Aether",
-      companylogo: require("./assets/images/aether.png"),
+      companylogo: require("./assets/images/linux.png"),
       date: "March 2024 ~ Present",
       desc: "SD-RAN engineer team",
       descBullets: [
@@ -144,7 +144,7 @@ const workExperiences = {
     {
       role: "Lead Mentee",
       company: "Microsoft Korea",
-      companylogo: require("./assets/images/azure.png"),
+      companylogo: require("./assets/images/azure.jpeg"),
       date: "July 2023 – October 2023",
       desc: "Azure SDK for Python and Korean",
       descBullets: [
