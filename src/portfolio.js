@@ -123,6 +123,13 @@ const techStack = {
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
+
+const openSource = {
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
+};
 // Work experience section
 
 const workExperiences = {
@@ -156,13 +163,7 @@ const workExperiences = {
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
-const openSource = {
-  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Some big projects you have worked on
 
