@@ -225,12 +225,11 @@ const achievementSection = {
     },
     {
       title: "Data Science: Coaching Study, Leader",
-      subtitle:
-        "A certification offered by the Naver Connect Foundation",
+      subtitle: "A certification offered by the Naver Connect Foundation",
       image: require("./assets/images/naver.png"),
       imageAlt: "Naver connect foundation logo",
       footerLink: []
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
