@@ -6,6 +6,20 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
+const SoftwareSkill = ({ softwareSkills }) => {
+  return (
+    <div>
+      {softwareSkills.map((skill, index) => (
+        <div key={index} className="software-skill">
+          <img src={skill.imageSrc} alt={skill.skillName} style={{ width: '50px' }} />
+          <p>{skill.skillName}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default SoftwareSkill;
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
@@ -54,103 +68,43 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "AWS",
-      icon: (
-        <img
-          src="/images/icons/aws-icon.png"
-          alt="AWS"
-          style={{width: "30px"}}
-        />
-      )
+      imageSrc: "/images/icons/aws-icon.png"
     },
     {
       skillName: "Azure",
-      icon: (
-        <img
-          src="/images/icons/azure-icon.png"
-          alt="Azure"
-          style={{width: "30px"}}
-        />
-      )
+      imageSrc: "/images/icons/azure-icon.png"
     },
     {
       skillName: "Python",
-      icon: (
-        <img
-          src="/images/icons/python-icon.png"
-          alt="Python"
-          style={{width: "30px"}}
-        />
-      )
+      imageSrc: "/images/icons/python-icon.png"
     },
     {
       skillName: "C++",
-      icon: (
-        <img
-          src="/images/icons/cpp-icon.png"
-          alt="Cpp"
-          style={{width: "30px"}}
-        />
-      )
+      imageSrc: "/images/icons/cpp-icon.png"
     },
     {
       skillName: "Golang",
-      icon: (
-        <img
-          src="/images/icons/golang-icon.png"
-          alt="Golang"
-          style={{width: "30px"}}
-        />
-      )
+      imageSrc: "/iamges/icons/golang-icon.png"
     },
     {
       skillName: "Pytorch",
-      icon: (
-        <img
-          src="/images/icons/pytorch-icon.png"
-          alt="Pytorch"
-          style={{width: "30px"}}
-        />
-      )
+      imageSrc: "/images/icons/pytorch-icon.png"
     },
     {
       skillName: "Scikit-Learn",
-      icon: (
-        <img
-          src="/images/icons/scikitlearn-icon.png"
-          alt="Scikit-learn"
-          style={{width: "30px"}}
-        />
-      )
+      imageSrc: "/images/icons/scikitlearn-icon.png"
     },
     {
       skillName: "Tensorflow",
-      icon: (
-        <img
-          src="/images/icons/kub-icon.png"
-          alt="Kubernetes"
-          style={{width: "30px"}}
-        />
-      )
+      imageSrc: "/images/icons/tensorflow-icon.png"
     },
     {
       skillName: "Kubernetes",
-      icon: (
-        <img
-          src="/images/icons/kubernetes-icon.png"
-          alt="Kubernetes"
-          style={{width: "30px"}}
-        />
-      )
+      imageSrc: "/images/icons/kubernetes-icon.png"
     },
     {
-      killName: "Docker",
-      icon: (
-        <img
-          src="/images/icons/docker-icon.png"
-          alt="Docker"
-          style={{width: "30px"}}
-        />
-      )
+      skillName: "Docker",
+      imageSrc: "/images/icons/docker-icon.png"
     }
   ],
   display: true // Set false to hide this section, defaults to true
