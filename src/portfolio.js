@@ -212,7 +212,7 @@ const achievementSection = {
       subtitle:
         " Associate exam validates individuals' abilities to architect and deploy secure and robust applications on AWS technologies, crucial for those in cloud architecture roles.",
       image: require("./assets/images/AWS-SAA.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "AWS Logo",
       footerLink: []
     },
     {
@@ -220,9 +220,17 @@ const achievementSection = {
       subtitle:
         "A certification offered by the Cloud Native Computing Foundation (CNCF) that validates one's expertise in deploying, managing, and troubleshooting Kubernetes clusters",
       image: require("./assets/images/CKA.png"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "CKA Logo",
       footerLink: []
-    }
+    },
+    {
+      title: "Data Science: Coaching Study, Leader",
+      subtitle:
+        "A certification offered by the Naver Connect Foundation",
+      image: require("./assets/images/naver.png"),
+      imageAlt: "Naver connect foundation logo",
+      footerLink: []
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
