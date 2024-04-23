@@ -163,8 +163,6 @@ const workExperiences = {
   ]
 };
 
-
-
 // Some big projects you have worked on
 
 const bigProjects = {
