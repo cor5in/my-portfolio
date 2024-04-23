@@ -142,7 +142,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Lead Mentee",
+      role: "Open Source Ambassador",
       company: "Microsoft Korea",
       companylogo: require("./assets/images/azure.jpeg"),
       date: "July 2023 – October 2023",
@@ -173,7 +173,7 @@ const bigProjects = {
     {
       image: require("./assets/images/OSS.webp"),
       projectName: "Open Source Contribution Academy",
-      projectDesc: "Team: Azure SDK for Python and Korean",
+      projectDesc: "Team: Azure SDK for Python and Korean, Lead Mentee",
       footerLink: [
         {
           name: "Visit Website",
