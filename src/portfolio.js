@@ -112,18 +112,6 @@ https://fontawesome.com/icons?d=gallery */
       icon: <FaDocker />
     }
   ],
-
-  return (
-    <div>
-      {softwareSkills.map(skill => (
-        <div key={skill.skillName}>
-          {skill.icon}
-          <span>{skill.skillName}</span>
-        </div>
-      ))}
-    </div>
-  );
-};
   display: true // Set false to hide this section, defaults to true
 };
 
