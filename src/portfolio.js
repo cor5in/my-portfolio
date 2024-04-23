@@ -69,8 +69,7 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-  ],
+  softwareSkills: [],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -210,7 +209,8 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "AWS Solutions Architect Associate",
-      subtitle: " Associate exam validates individuals' abilities to architect and deploy secure and robust applications on AWS technologies, crucial for those in cloud architecture roles.",
+      subtitle:
+        " Associate exam validates individuals' abilities to architect and deploy secure and robust applications on AWS technologies, crucial for those in cloud architecture roles.",
       image: require("./assets/images/AWS-SAA.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: []
@@ -310,4 +310,3 @@ export {
   twitterDetails,
   isHireable
 };
-
