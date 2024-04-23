@@ -1,8 +1,8 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
-import React from 'react';
-import {FaAws, FaPython, FaDocker} from "react-icons/fa";
+import React from "react";
+import {FaAws, FaPython, FaDocker, FaGolang} from "react-icons/fa";
 import {
   SiMicrosoftazure,
   SiPytorch,
@@ -10,10 +10,9 @@ import {
   SiTensorflow,
   SiKubernetes
 } from "react-icons/si";
-import {FaGolang} from "react-icons/fa6";
 import {TbBrandCpp} from "react-icons/tb";
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 
@@ -35,28 +34,19 @@ const greeting = {
   subTitle: emoji(
     "A passionate researcher studying vRAN 🚀, eager to collaborate with diverse individuals and achieve innovation"
   ),
-  /* resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button */
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true
 };
 
 // Social Media Links
-
 const socialMediaLinks = {
   github: "https://github.com/41vin",
   linkedin: "https://www.linkedin.com/in/41vin/",
   gmail: "gun@khu.ac.kr",
-  /* gitlab: "https://gitlab.com/saadpasta" */
-  /*facebook: "https://www.facebook.com/saad.pasta7",*/
   instagram: "https://www.instagram.com/gun.__.kim",
-  /* stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta" */
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
   subTitle:
@@ -64,7 +54,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Research on AI/ML workflow in Open RAN"),
     emoji("⚡ Study of cloud native RAN architecture"),
-    emoji("⚡ Research on self-organizing network and zero-touch Network")
+    emoji("⚡ Research on self-organizing network and zero-touch network")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -72,8 +62,14 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "aws",
-      icon: <FaAws />
+      skillName: "AWS",
+      icon: (
+        <img
+          src="/images/icons/aws-icon.png"
+          alt="AWS"
+          style={{width: "30px"}}
+        />
+      )
     },
     {
       skillName: "azure",
@@ -127,14 +123,14 @@ const educationInfo = {
         "Master of Science in Electronic and Information Convergence Engineering",
       duration: "March 2023 - ",
       desc: "Belong to Mobile Communications Lab, and participate in the research of next-generation communication",
-      descBullets: ["Cloud native 5G core network", "Open RAN"]
+      descBullets: ["SON & ZTN", "Open RAN"]
     },
     {
       schoolName: "KyungHee University",
       logo: require("./assets/images/khuLogo.png"),
       subHeader: "Bachelor of Science in Electronic Engineering",
       duration: "March 2017 - February 2023",
-      desc: "Ranked top 10% in the program. Took courses about Mobile Communication, Wireless Communication, Computer Network ...",
+      desc: "Ranked top 5% in the program. Took courses about Mobile Communication, Wireless Communication, Computer Network ...",
       descBullets: ["Summa Cum Laude"]
     }
   ]
