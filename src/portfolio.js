@@ -1,10 +1,16 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
-import { FaAws, FaPython, FaDocker } from "react-icons/fa";
-import { SiMicrosoftazure, SiPytorch, SiScikitlearn, SiTensorflow, SiKubernetes } from "react-icons/si";
-import { FaGolang } from "react-icons/fa6";
-import { TbBrandCpp } from "react-icons/tb";
+import {FaAws, FaPython, FaDocker} from "react-icons/fa";
+import {
+  SiMicrosoftazure,
+  SiPytorch,
+  SiScikitlearn,
+  SiTensorflow,
+  SiKubernetes
+} from "react-icons/si";
+import {FaGolang} from "react-icons/fa6";
+import {TbBrandCpp} from "react-icons/tb";
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -56,12 +62,8 @@ const skillsSection = {
     "Researching next-generation mobile communication, particularly cloud native RAN",
   skills: [
     emoji("⚡ Research on AI/ML workflow in Open RAN"),
-    emoji(
-      "⚡ Study of cloud native RAN architecture"
-    ),
-    emoji(
-      "⚡ Research on self-organizing network and zero-touch Network"
-    )
+    emoji("⚡ Study of cloud native RAN architecture"),
+    emoji("⚡ Research on self-organizing network and zero-touch Network")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -107,8 +109,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       icon: <FaDocker />
-    },
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -244,7 +245,8 @@ const achievementSection = {
     },
     {
       title: "Certified Kubernetes Administrator",
-      subtitle: "A certification offered by the Cloud Native Computing Foundation (CNCF) that validates one's expertise in deploying, managing, and troubleshooting Kubernetes clusters",
+      subtitle:
+        "A certification offered by the Cloud Native Computing Foundation (CNCF) that validates one's expertise in deploying, managing, and troubleshooting Kubernetes clusters",
       image: require("./assets/images/CKA.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: []
