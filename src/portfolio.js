@@ -2,15 +2,6 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 import React from "react";
-import {FaAws, FaPython, FaDocker, FaGolang} from "react-icons/fa";
-import {
-  SiMicrosoftazure,
-  SiPytorch,
-  SiScikitlearn,
-  SiTensorflow,
-  SiKubernetes
-} from "react-icons/si";
-import {TbBrandCpp} from "react-icons/tb";
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
@@ -72,40 +63,94 @@ https://fontawesome.com/icons?d=gallery */
       )
     },
     {
-      skillName: "azure",
-      icon: <SiMicrosoftazure />
+      skillName: "Azure",
+      icon: (
+        <img
+          src="/images/icons/azure-icon.png"
+          alt="Azure"
+          style={{width: "30px"}}
+        />
+      )
     },
     {
-      skillName: "python",
-      icon: <FaPython />
+      skillName: "Python",
+      icon: (
+        <img
+          src="/images/icons/python-icon.png"
+          alt="Python"
+          style={{width: "30px"}}
+        />
+      )
     },
     {
-      skillName: "c++",
-      icon: <TbBrandCpp />
+      skillName: "C++",
+      icon: (
+        <img
+          src="/images/icons/cpp-icon.png"
+          alt="Cpp"
+          style={{width: "30px"}}
+        />
+      )
     },
     {
-      skillName: "go",
-      icon: <FaGolang />
+      skillName: "Golang",
+      icon: (
+        <img
+          src="/images/icons/golang-icon.png"
+          alt="Golang"
+          style={{width: "30px"}}
+        />
+      )
     },
     {
-      skillName: "pytorch",
-      icon: <SiPytorch />
+      skillName: "Pytorch",
+      icon: (
+        <img
+          src="/images/icons/pytorch-icon.png"
+          alt="Pytorch"
+          style={{width: "30px"}}
+        />
+      )
     },
     {
-      skillName: "scikit-learn",
-      icon: <SiScikitlearn />
+      skillName: "Scikit-Learn",
+      icon: (
+        <img
+          src="/images/icons/scikitlearn-icon.png"
+          alt="Scikit-learn"
+          style={{width: "30px"}}
+        />
+      )
     },
     {
-      skillName: "tensorflow",
-      icon: <SiTensorflow />
+      skillName: "Tensorflow",
+      icon: (
+        <img
+          src="/images/icons/kub-icon.png"
+          alt="Kubernetes"
+          style={{width: "30px"}}
+        />
+      )
     },
     {
-      skillName: "kubernetes",
-      icon: <SiKubernetes />
+      skillName: "Kubernetes",
+      icon: (
+        <img
+          src="/images/icons/kubernetes-icon.png"
+          alt="Kubernetes"
+          style={{width: "30px"}}
+        />
+      )
     },
     {
-      skillName: "docker",
-      icon: <FaDocker />
+      killName: "Docker",
+      icon: (
+        <img
+          src="/images/icons/docker-icon.png"
+          alt="Docker"
+          style={{width: "30px"}}
+        />
+      )
     }
   ],
   display: true // Set false to hide this section, defaults to true
