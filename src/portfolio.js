@@ -127,9 +127,11 @@ const techStack = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true" , // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
+
+
 // Work experience section
 
 const workExperiences = {
