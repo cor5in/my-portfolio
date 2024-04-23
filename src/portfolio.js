@@ -6,12 +6,16 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
-const SoftwareSkill = ({ softwareSkills }) => {
+const SoftwareSkill = ({softwareSkills}) => {
   return (
     <div>
       {softwareSkills.map((skill, index) => (
         <div key={index} className="software-skill">
-          <img src={skill.imageSrc} alt={skill.skillName} style={{ width: '50px' }} />
+          <img
+            src={skill.imageSrc}
+            alt={skill.skillName}
+            style={{width: "50px"}}
+          />
           <p>{skill.skillName}</p>
         </div>
       ))}
