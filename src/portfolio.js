@@ -1,7 +1,10 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
-
+import { FaAws, FaPython, FaDocker } from "react-icons/fa";
+import { SiMicrosoftazure, SiPytorch, SiScikitlearn, SiTensorflow, SiKubernetes } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6";
+import { TbBrandCpp } from "react-icons/tb";
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -52,12 +55,12 @@ const skillsSection = {
   subTitle:
     "Researching next-generation mobile communication, particularly cloud native RAN",
   skills: [
-    emoji("⚡ Research on AI/ML Workflow in Open RAN"),
+    emoji("⚡ Research on AI/ML workflow in Open RAN"),
     emoji(
-      "⚡ Study of Cloud Native RAN Architecture"
+      "⚡ Study of cloud native RAN architecture"
     ),
     emoji(
-      "⚡ Research on vRAN Hyperparameter Fine-Tuning Using Bayesian Optimization"
+      "⚡ Research on self-organizing network and zero-touch Network"
     )
   ],
 
@@ -67,36 +70,45 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      fontAwesomeClassname: <FaAws />
     },
     {
       skillName: "azure",
-      fontAwesomeClassname: "fab fa-azure"
+      fontAwesomeClassname: <SiMicrosoftazure />
     },
     {
       skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: <FaPython />
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "c++",
+      fontAwesomeClassname: <TbBrandCpp />
     },
     {
-      skillName: "prometheus",
-      fontAwesomeClassname: "fab fa-prometheus"
+      skillName: "go",
+      fontAwesomeClassname: <FaGolang />
     },
     {
-      skillName: "grafana",
-      fontAwesomeClassname: "fab fa-grafana"
+      skillName: "pytorch",
+      fontAwesomeClassname: <SiPytorch />
+    },
+    {
+      skillName: "scikit-learn",
+      fontAwesomeClassname: <SiScikitlearn />
+    },
+    {
+      skillName: "tensorflow",
+      fontAwesomeClassname: <SiTensorflow />
     },
     {
       skillName: "kubernetes",
-      fontAwesomeClassname: "fab fa-kubernetes"
+      fontAwesomeClassname: <SiKubernetes />
     },
     {
-      skillName: "ansible",
-      fontAwesomeClassname: "fab fa-ansible"
-    }
+      skillName: "docker",
+      fontAwesomeClassname: <FaDocker />
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -121,7 +133,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Electronic Engineering",
       duration: "March 2017 - February 2023",
       desc: "Ranked top 10% in the program. Took courses about Mobile Communication, Wireless Communication, Computer Network ...",
-      descBullets: ["Cum Laude"]
+      descBullets: ["Summa Cum Laude"]
     }
   ]
 };
@@ -132,8 +144,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Optimization", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      Stack: "Artificial Intelligence", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Cloud Native Infrastructure",
@@ -141,11 +153,11 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "60%"
     },
     {
-      Stack: "Cloud Architecture",
-      progressPercentage: "80%"
+      Stack: "Optimization",
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
