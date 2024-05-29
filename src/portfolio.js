@@ -254,7 +254,7 @@ const blogSection = {
     "Content related to 5G core, Open RAN, and various open-source technologies",
   blogs: [
     {
-      url: "https://41vin.github.io/research/OTIC",
+      url: "https://41vin.github.io/docs/2023_08_23_OTIC/",
       title: "1st OTIC in SUTD, Singapore",
       description: "My Participation Review of the 1st OTIC"
     }
