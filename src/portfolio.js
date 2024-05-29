@@ -150,7 +150,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Open Source Ambassador",
+      role: "Open Source Contributor",
       company: "Microsoft Korea",
       companylogo: require("./assets/images/azure.jpeg"),
       date: "July 2023 – October 2023",
@@ -170,6 +170,18 @@ const bigProjects = {
   title: "Team Projects",
   subtitle: "PROJECTS ACCOMPLISHED WITH OTHER INDIVIDUALS",
   projects: [
+    {
+      image: require("./assets/images/SKT.png"),
+      projectName: "SKT AI Fellowship",
+      projectDesc: "5G Green AI Algorithm Development",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.sktaifellowship.com/d5818d3c-16e2-467c-82a1-3f56bd6dfbcb"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/OSS.webp"),
       projectName: "Open Source Contribution Academy",
@@ -279,7 +291,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false // Set false to hbide this section, defaults to true
 };
 
 const contactInfo = {
