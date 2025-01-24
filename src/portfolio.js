@@ -59,7 +59,7 @@ const skillsSection = {
   title: 'What I do',
   subTitle: 'Researching next-generation mobile communication, particularly open RAN',
   skills: [
-    emoji('⚡ Research on building energy-efficient networks through radio resource management')
+    emoji('⚡ Research on building energy-efficient networks through radio resource management'),
     emoji('⚡ Research on AI/ML workflow in open RAN'),
     emoji('⚡ Study on open RAN specifications'),
     
