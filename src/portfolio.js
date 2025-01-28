@@ -287,7 +287,6 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
 // Blogs Section
 const blogSection = {
   title: "Blogs",
