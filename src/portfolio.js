@@ -64,9 +64,12 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I do",
-  subTitle: "Researching next-generation mobile communication, particularly open RAN",
+  subTitle:
+    "Researching next-generation mobile communication, particularly open RAN",
   skills: [
-    emoji("⚡ Research on building energy-efficient networks through radio resource management"),
+    emoji(
+      "⚡ Research on building energy-efficient networks through radio resource management"
+    ),
     emoji("⚡ Research on AI/ML workflow in open RAN"),
     emoji("⚡ Study on open RAN specifications")
   ],
@@ -81,7 +84,8 @@ const educationInfo = {
     {
       schoolName: "KyungHee University",
       logo: require("./assets/images/khuLogo.png"),
-      subHeader: "Ph.D. Candidate in Electronic and Information Convergence Engineering",
+      subHeader:
+        "Ph.D. Candidate in Electronic and Information Convergence Engineering",
       duration: "March 2025 - Expected",
       desc: "Belong to Mobile Communications Lab and participate in the research of next-generation communication, focusing on radio resource management and open RAN-based software and specifications.",
       descBullets: ["Open RAN", "Radio Resource Management"]
@@ -89,7 +93,8 @@ const educationInfo = {
     {
       schoolName: "KyungHee University",
       logo: require("./assets/images/khuLogo.png"),
-      subHeader: "Master of Science in Electronic and Information Convergence Engineering",
+      subHeader:
+        "Master of Science in Electronic and Information Convergence Engineering",
       duration: "March 2023 - February 2025",
       desc: "Belong to Mobile Communications Lab, and participate in the research of next-generation communication",
       descBullets: ["Open RAN", "Mobile Traffic Prediction"]
@@ -236,39 +241,45 @@ const bigProjects = {
 // Achievement Section
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆"),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
   achievementsCards: [
     {
       title: "Best Paper Award",
-      subtitle: "Recognized for exceptional research contributions to O-RAN testbed implementation at the KICS symposium",
+      subtitle:
+        "Recognized for exceptional research contributions to O-RAN testbed implementation at the KICS symposium",
       image: require("./assets/images/KICS.png"),
       imageAlt: "KICS Logo",
       footerLink: []
     },
     {
       title: "Outstanding Research Award",
-      subtitle: "Awarded for the 5G Green AI Algorithm research project conducted with SKT",
+      subtitle:
+        "Awarded for the 5G Green AI Algorithm research project conducted with SKT",
       image: require("./assets/images/SKT.png"),
       imageAlt: "SKT Logo",
       footerLink: []
     },
     {
       title: "Best Paper Award",
-      subtitle: "Honored for excellence in research on traffic prediction at the KICS symposium",
+      subtitle:
+        "Honored for excellence in research on traffic prediction at the KICS symposium",
       image: require("./assets/images/AWS-SAA.webp"),
       imageAlt: "AWS Logo",
       footerLink: []
     },
     {
       title: "AWS Solutions Architect Associate",
-      subtitle: "Validates expertise in architecting and deploying secure and robust applications on AWS technologies",
+      subtitle:
+        "Validates expertise in architecting and deploying secure and robust applications on AWS technologies",
       image: require("./assets/images/AWS-SAA.webp"),
       imageAlt: "AWS Logo",
       footerLink: []
     },
     {
       title: "Certified Kubernetes Administrator",
-      subtitle: "Certification offered by CNCF validating expertise in managing Kubernetes clusters",
+      subtitle:
+        "Certification offered by CNCF validating expertise in managing Kubernetes clusters",
       image: require("./assets/images/CKA.png"),
       imageAlt: "CKA Logo",
       footerLink: []
@@ -287,23 +298,29 @@ const achievementSection = {
 // Blogs Section
 const blogSection = {
   title: "Blogs",
-  subtitle: "Content focused on research papers and personal records related to open RAN and various research topics",
+  subtitle:
+    "Content focused on research papers and personal records related to open RAN and various research topics",
   displayMediumBlogs: "false",
   blogs: [
     {
       url: "https://cor5in.github.io/blog/paper/2024-09-26-joint-traffic-prediction-and-base-station-sleepiong-for-energy-saving-in-cellular-networks/",
-      title: "[Review]Joint Traffic Prediction and Base Station Sleeping for Energy Saving in Cellular Networks",
-      description: "A paper review conducted as part of preliminary research on energy-saving via traffic prediction and base station sleeping in cellular networks"
+      title:
+        "[Review]Joint Traffic Prediction and Base Station Sleeping for Energy Saving in Cellular Networks",
+      description:
+        "A paper review conducted as part of preliminary research on energy-saving via traffic prediction and base station sleeping in cellular networks"
     },
     {
       url: "https://cor5in.github.io/blog/paper/2024-11-15-AI-ready-Energy-Modeling-for-Next-Generation-RAN/",
       title: "[Review]AI-Ready Energy Modelling for Next Generation RAN",
-      description: "A review of the paper referenced for implementing a cell on/off simulator for AI-ready energy modeling in next-generation RAN"
+      description:
+        "A review of the paper referenced for implementing a cell on/off simulator for AI-ready energy modeling in next-generation RAN"
     },
     {
       url: "https://cor5in.github.io/blog/paper/2025-01-13-analyzing-and-modeling-spatil-temporal-dependence-of-cellular-traffic-at-city-scale/",
-      title: "[Review]Analyzing and Modeling Spatio-Temporal Dependence of Cellular Traffic at City Scale",
-      description: "A review of the paper referenced for developing algorithms to analyze SKT's real base station traffic data at a city scale"
+      title:
+        "[Review]Analyzing and Modeling Spatio-Temporal Dependence of Cellular Traffic at City Scale",
+      description:
+        "A review of the paper referenced for developing algorithms to analyze SKT's real base station traffic data at a city scale"
     }
   ],
   display: true
@@ -335,7 +352,8 @@ const resumeSection = {
 // Contact Info Section
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "If you find my research interesting, please feel free to send me an email!",
+  subtitle:
+    "If you find my research interesting, please feel free to send me an email!",
   number: "",
   email_address: "gun@khu.ac.kr"
 };
