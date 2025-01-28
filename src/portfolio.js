@@ -142,7 +142,7 @@ const workExperiences = {
       role: "Open Source Contributor",
       company: "O-RAN Software Community",
       companylogo: require("./assets/images/O-RAN.jpeg"),
-      date: "March 2024 ~ Present",
+      date: "March 2024 - Present",
       desc: "Researcher",
       descBullets: [
         "AIMLFW: Contributor",
@@ -155,7 +155,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Aether 5G",
       companylogo: require("./assets/images/linux.png"),
-      date: "March 2024 ~ Present",
+      date: "March 2024 - Present",
       desc: "SD-RAN engineer team",
       descBullets: [
         "Release process",
