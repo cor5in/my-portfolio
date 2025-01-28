@@ -40,7 +40,7 @@ const greeting = {
   username: "Corbin Kim",
   title: "Glad to see you, I'm Corbin",
   subTitle: emoji(
-    "A dedicated researcher exploring radio resource management and the AI/ML workflows within the RIC architecture in Open RAN-based networks, striving for innovation and impactful solutions. 🚀"
+    "A dedicated researcher exploring radio resource management and AI/ML workflows within RIC architecture in Open RAN-based networks, striving for innovation and impactful solutions. 🚀"
   ),
   displayGreeting: true
 };
@@ -146,7 +146,7 @@ const workExperiences = {
     },
     {
       role: "Software Engineer",
-      company: "Aether",
+      company: "Aether 5G",
       companylogo: require("./assets/images/linux.png"),
       date: "March 2024 ~ Present",
       desc: "SD-RAN engineer team",
