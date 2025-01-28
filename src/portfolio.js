@@ -25,15 +25,20 @@ const SoftwareSkill = ({softwareSkills}) => {
 
 export default SoftwareSkill;
 
+/* Change this file to get your personal Portfolio */
+
+// To change portfolio colors globally go to the  _globalColor.scss file
+
+// Splash Screen
 const splashScreen = {
-  enabled: true, // Set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
 // Summary And Greeting Section
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true
 };
 
 const greeting = {
@@ -42,6 +47,7 @@ const greeting = {
   subTitle: emoji(
     "A dedicated researcher exploring radio resource management and AI/ML workflows within RIC architecture in Open RAN-based networks, striving for innovation and impactful solutions. 🚀"
   ),
+  resumeLink: "", // 이력서 링크가 있다면 추가
   displayGreeting: true
 };
 
@@ -51,34 +57,31 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/cor5in/",
   gmail: "gun@khu.ac.kr",
   instagram: "https://www.instagram.com/gun.__.kim",
+  // 다른 소셜 미디어는 제거
   display: true
 };
 
 // Skills Section
 const skillsSection = {
   title: "What I do",
-  subTitle:
-    "Researching next-generation mobile communication, particularly open RAN",
+  subTitle: "Researching next-generation mobile communication, particularly open RAN",
   skills: [
-    emoji(
-      "⚡ Research on building energy-efficient networks through radio resource management"
-    ),
+    emoji("⚡ Research on building energy-efficient networks through radio resource management"),
     emoji("⚡ Research on AI/ML workflow in open RAN"),
     emoji("⚡ Study on open RAN specifications")
   ],
-  softwareSkills: [],
-  display: true // Set false to hide this section, defaults to true
+  softwareSkills: [], // 기존 빈 배열 유지
+  display: true
 };
 
 // Education Section
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "KyungHee University",
       logo: require("./assets/images/khuLogo.png"),
-      subHeader:
-        "Ph.D. Candidate in Electronic and Information Convergence Engineering",
+      subHeader: "Ph.D. Candidate in Electronic and Information Convergence Engineering",
       duration: "March 2025 - Expected",
       desc: "Belong to Mobile Communications Lab and participate in the research of next-generation communication, focusing on radio resource management and open RAN-based software and specifications.",
       descBullets: ["Open RAN", "Radio Resource Management"]
@@ -86,8 +89,7 @@ const educationInfo = {
     {
       schoolName: "KyungHee University",
       logo: require("./assets/images/khuLogo.png"),
-      subHeader:
-        "Master of Science in Electronic and Information Convergence Engineering",
+      subHeader: "Master of Science in Electronic and Information Convergence Engineering",
       duration: "March 2023 - February 2025",
       desc: "Belong to Mobile Communications Lab, and participate in the research of next-generation communication",
       descBullets: ["Open RAN", "Mobile Traffic Prediction"]
@@ -103,13 +105,13 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
+// Tech Stack Section
 const techStack = {
-  viewSkillBars: true, // Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
       Stack: "Artificial Intelligence",
-      progressPercentage: "90%" // Insert relative proficiency in percentage
+      progressPercentage: "90%"
     },
     {
       Stack: "Cloud Native Infrastructure",
@@ -124,12 +126,12 @@ const techStack = {
       progressPercentage: "70%"
     }
   ],
-  displayCodersrank: true // Set true to display codersrank badges section
+  displayCodersrank: true
 };
 
-// Work experience section
+// Work Experiences Section
 const workExperiences = {
-  display: true, // Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Open Source Contributor",
@@ -172,61 +174,10 @@ const workExperiences = {
   ]
 };
 
-// Achievement Section
-const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆"),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
-  achievementsCards: [
-    {
-      title: "Best Paper Award",
-      subtitle:
-        "Recognized for exceptional research contributions to O-RAN testbed implementation at the KICS symposium",
-      image: require("./assets/images/KICS.png"),
-      imageAlt: "KICS Logo",
-      footerLink: []
-    },
-    {
-      title: "Outstanding Research Award",
-      subtitle:
-        "Awarded for the 5G Green AI Algorithm research project conducted with SKT",
-      image: require("./assets/images/SKT.png"),
-      imageAlt: "SKT Logo",
-      footerLink: []
-    },
-    {
-      title: "Best Paper Award",
-      subtitle:
-        "Honored for excellence in research on traffic prediction at the KICS symposium",
-      image: require("./assets/images/AWS-SAA.webp"),
-      imageAlt: "AWS Logo",
-      footerLink: []
-    },
-    {
-      title: "AWS Solutions Architect Associate",
-      subtitle:
-        "Validates expertise in architecting and deploying secure and robust applications on AWS technologies",
-      image: require("./assets/images/AWS-SAA.webp"),
-      imageAlt: "AWS Logo",
-      footerLink: []
-    },
-    {
-      title: "Certified Kubernetes Administrator",
-      subtitle:
-        "Certification offered by CNCF validating expertise in managing Kubernetes clusters",
-      image: require("./assets/images/CKA.png"),
-      imageAlt: "CKA Logo",
-      footerLink: []
-    },
-    {
-      title: "Data Science: Coaching Study, Leader",
-      subtitle: "Certification offered by the Naver Connect Foundation",
-      image: require("./assets/images/naver.png"),
-      imageAlt: "Naver Connect Foundation Logo",
-      footerLink: []
-    }
-  ],
-  display: true // Set false to hide this section
+// Open Source Section
+const openSource = {
+  showGithubProfile: "true",
+  display: true
 };
 
 // Big Projects Section
@@ -279,53 +230,123 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section
+  display: true
 };
 
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+// Achievement Section
+const achievementSection = {
+  title: emoji("Achievements And Certifications 🏆"),
+  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
+  achievementsCards: [
+    {
+      title: "Best Paper Award",
+      subtitle: "Recognized for exceptional research contributions to O-RAN testbed implementation at the KICS symposium",
+      image: require("./assets/images/KICS.png"),
+      imageAlt: "KICS Logo",
+      footerLink: []
+    },
+    {
+      title: "Outstanding Research Award",
+      subtitle: "Awarded for the 5G Green AI Algorithm research project conducted with SKT",
+      image: require("./assets/images/SKT.png"),
+      imageAlt: "SKT Logo",
+      footerLink: []
+    },
+    {
+      title: "Best Paper Award",
+      subtitle: "Honored for excellence in research on traffic prediction at the KICS symposium",
+      image: require("./assets/images/AWS-SAA.webp"),
+      imageAlt: "AWS Logo",
+      footerLink: []
+    },
+    {
+      title: "AWS Solutions Architect Associate",
+      subtitle: "Validates expertise in architecting and deploying secure and robust applications on AWS technologies",
+      image: require("./assets/images/AWS-SAA.webp"),
+      imageAlt: "AWS Logo",
+      footerLink: []
+    },
+    {
+      title: "Certified Kubernetes Administrator",
+      subtitle: "Certification offered by CNCF validating expertise in managing Kubernetes clusters",
+      image: require("./assets/images/CKA.png"),
+      imageAlt: "CKA Logo",
+      footerLink: []
+    },
+    {
+      title: "Data Science: Coaching Study, Leader",
+      subtitle: "Certification offered by the Naver Connect Foundation",
+      image: require("./assets/images/naver.png"),
+      imageAlt: "Naver Connect Foundation Logo",
+      footerLink: []
+    }
+  ],
+  display: true
 };
 
 // Blogs Section
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "Content focused on research papers and personal records related to open RAN and various research topics",
+  subtitle: "Content focused on research papers and personal records related to open RAN and various research topics",
+  displayMediumBlogs: "false",
   blogs: [
     {
       url: "https://cor5in.github.io/blog/paper/2024-09-26-joint-traffic-prediction-and-base-station-sleepiong-for-energy-saving-in-cellular-networks/",
-      title:
-        "[Review]Joint Traffic Prediction and Base Station Sleeping for Energy Saving in Cellular Networks",
-      description:
-        "A paper review conducted as part of preliminary research on energy-saving via traffic prediction and base station sleeping in cellular networks"
+      title: "[Review]Joint Traffic Prediction and Base Station Sleeping for Energy Saving in Cellular Networks",
+      description: "A paper review conducted as part of preliminary research on energy-saving via traffic prediction and base station sleeping in cellular networks"
     },
     {
       url: "https://cor5in.github.io/blog/paper/2024-11-15-AI-ready-Energy-Modeling-for-Next-Generation-RAN/",
       title: "[Review]AI-Ready Energy Modelling for Next Generation RAN",
-      description:
-        "A review of the paper referenced for implementing a cell on/off simulator for AI-ready energy modeling in next-generation RAN"
+      description: "A review of the paper referenced for implementing a cell on/off simulator for AI-ready energy modeling in next-generation RAN"
     },
     {
       url: "https://cor5in.github.io/blog/paper/2025-01-13-analyzing-and-modeling-spatil-temporal-dependence-of-cellular-traffic-at-city-scale/",
-      title:
-        "[Review]Analyzing and Modeling Spatio-Temporal Dependence of Cellular Traffic at City Scale",
-      description:
-        "A review of the paper referenced for developing algorithms to analyze SKT’s real base station traffic data at a city scale"
+      title: "[Review]Analyzing and Modeling Spatio-Temporal Dependence of Cellular Traffic at City Scale",
+      description: "A review of the paper referenced for developing algorithms to analyze SKT's real base station traffic data at a city scale"
     }
   ],
-  display: true // Set false to hide this section
+  display: true
+};
+
+// Talk Section
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji("I LOVE TO SHARE MY KNOWLEDGE"),
+  talks: [],
+  display: false // 내용이 없으므로 false로 설정
+};
+
+// Podcast Section
+const podcastSection = {
+  title: emoji("Podcast 🎙️"),
+  subtitle: "",
+  podcast: [],
+  display: false // 내용이 없으므로 false로 설정
+};
+
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "",
+  display: false // 내용이 없으므로 false로 설정
 };
 
 // Contact Info Section
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "If you find my research interesting, please feel free to send me an email!",
+  subtitle: "If you find my research interesting, please feel free to send me an email!",
+  number: "",
   email_address: "gun@khu.ac.kr"
 };
 
-const isHireable = true; // Set false if you are not looking for a job
+// Twitter Section
+const twitterDetails = {
+  userName: "",
+  display: false // 트위터 정보가 없으므로 false로 설정
+};
+
+const isHireable = true;
 
 export {
   illustration,
@@ -336,10 +357,14 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  achievementSection,
+  openSource,
   bigProjects,
+  achievementSection,
   blogSection,
+  talkSection,
+  podcastSection,
   contactInfo,
+  twitterDetails,
   isHireable,
-  openSource
+  resumeSection
 };
