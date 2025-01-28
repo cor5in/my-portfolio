@@ -140,7 +140,7 @@ const workExperiences = {
   experience: [
     {
       role: "Open Source Contributor",
-      company: "O-RAN Software Community: AIMLFW",
+      company: "O-RAN Software Community",
       companylogo: require("./assets/images/O-RAN.jpeg"),
       date: "March 2024 ~ Present",
       desc: "Researcher",
@@ -213,7 +213,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/OSS.webp"),
+      image: require("./assets/images/azure.jpeg"),
       projectName: "Open Source Contribution Academy",
       projectDesc: "Team: Azure SDK for Python and Korean, Lead Mentee",
       footerLink: [
@@ -264,8 +264,8 @@ const achievementSection = {
       title: "Best Paper Award",
       subtitle:
         "Honored for excellence in research on traffic prediction at the KICS symposium",
-      image: require("./assets/images/AWS-SAA.webp"),
-      imageAlt: "AWS Logo",
+      image: require("./assets/images/KICS.png"),
+      imageAlt: "KICS Logo",
       footerLink: []
     },
     {
